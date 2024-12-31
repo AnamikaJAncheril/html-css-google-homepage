@@ -4,7 +4,12 @@
    padding: 0px;
    font-family: 'inter',sans-serif;
 }
-
+body{
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column ;
+    min-height: 100vh;
+}
 .goggle-header{
     font-family: 'Poppins',sans-serif;
 }
@@ -66,3 +71,39 @@ header{
 
 }
 
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    
+}
+.input-bar input{
+    flex: 1;
+    border: none;
+    outline: none;
+    width: 100%;
+
+}
+.input-bar hover{
+    
+}
+.input-bar{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid grey;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.input-bar div{
+    isplay: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
